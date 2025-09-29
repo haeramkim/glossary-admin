@@ -5,7 +5,7 @@ import path from "path";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "./",
+  base: "/glossary-admin/",
   resolve: {
     alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
   },
