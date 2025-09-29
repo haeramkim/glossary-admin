@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router";
+import { Route, Routes } from "react-router";
 import App from "./App";
 import AlarmMessage from "./pages/alarm-message/AlarmMessage";
 
